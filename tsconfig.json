@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "lib": ["ES2022"],
+    "module": "commonjs",
+    "outDir": "dist"
+  }
+}

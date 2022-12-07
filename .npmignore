@@ -1,0 +1,7 @@
+.DS_Store
+jest.config.js
+tsconfig.json
+/coverage
+/node_modules
+/src
+/tests

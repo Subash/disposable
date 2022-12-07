@@ -1,0 +1,28 @@
+{
+  "name": "@sbspk/disposable",
+  "version": "1.0.0",
+  "description": "Simple library for implementing and consuming evented APIs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "npm run clean && npm run build -- --watch",
+    "prepublishOnly": "npm run clean && npm run build",
+    "prettier": "prettier src tests --write",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Subash/disposable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Subash/disposable/issues"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "prettier": "^2.8.0",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.3"
+  }
+}
